@@ -37,11 +37,9 @@
 <body class="font-sora bg-white">
   <!-- Header Section -->
   <main class="overflow-hidden lg:mt-10  ">
-    <header class="  px-2 lg:px-20 bg-gradient-to-b from-white to-[#EFEBE3] ">
+    <header class="  px-2 lg:px-20 bg-gradient-to-b from-white to-[#EFEBE3]  ">
       <!-- Navbar -->
-
-       <div class="lg:w-[1900px] mx-auto">
-        <nav class=" flex items-center  text-center justify-between lg:px-[200px]  ">
+        <nav class=" flex items-center  text-center justify-between lg:px-[200px] lg:w-[1900px] mx-auto ">
           <div>
               <img src="./c2-assets/logo-header.png" alt="Logo" class="w-full">
               
@@ -105,28 +103,231 @@
     </header>
 
   <!-- Services Section -->
-   <section>
-    <div><h2 class="text-nature-primary">
+   <section class="lg:w-[1900px] mx-auto ">
+    <div class="mt-32"><h2 class="text-nature-primary font-semibold text-4xl py-10 ">
       Services
     </h2>
 </div>
-<div class="card bg-base-100 w-96 shadow-xl">
+   <section class="grid grid-cols-1 lg:grid-cols-3 gap-6 items-center ">
+<!-- card 1 -->
+<div class="card bg-[#EFEBE3]  shadow-xl">
   <figure class="px-10 pt-10">
     <img
-      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-      alt="Shoes"
-      class="rounded-xl" />
+      src="./c2-assets/service.png"
+      alt="Services"
+      class="bg-slate-50 p-5 rounded-full" />
   </figure>
   <div class="card-body items-center text-center">
     <h2 class="card-title">24/7 Services </h2>
-    <p>If a dog chews shoes whose shoes does he choose?</p>
-    <div class="card-actions">
-      <button class="btn btn-primary">Buy Now</button>
-    </div>
+    <p class=" text-gray-500 text-xl w-full py-5">Natural foods can be best described as unadulterated sustenance that remains as close to its original state as possible.</p>
+    
   </div>
 </div>
-   </section>
+<!-- Card-2 -->
+<div class="card bg-[#EFEBE3]  shadow-xl">
+  <figure class="px-10 pt-10">
+    <img
+      src="./c2-assets/delivery.png"
+      alt="Services"
+      class="bg-slate-50 p-5 rounded-full" />
+  </figure>
+  <div class="card-body items-center text-center">
+    <h2 class="card-title">24/7 Services </h2>
+    <p class=" text-gray-500 text-xl w-full py-5">Natural foods can be best described as unadulterated sustenance that remains as close to its original state as possible.</p>
+    
+  </div>
 </div>
+<!-- Card-3 -->
+<div class="card bg-[#EFEBE3]  shadow-xl">
+  <figure class="px-10 pt-10">
+    <img
+      src="./c2-assets/healthy.png"
+      alt="Services"
+      class="bg-slate-50 p-5 rounded-full" />
+  </figure>
+  <div class="card-body items-center text-center">
+    <h2 class="card-title">24/7 Services </h2>
+    <p class=" text-gray-500 text-xl w-full py-5">Natural foods can be best described as unadulterated sustenance that remains as close to its original state as possible.</p>
+    
+  </div>
+</div>
+</section>
+   </section>
+
+   <!-- Products -->
+<section class="bg-[#EFEBE3] my-[150px]  p-1 lg:p-20 ">
+  <div class="lg:w-[1900px] mx-auto">
+    <div>
+      <h2 class="font-semibold text-nature-primary text-4xl py-5">Popular Products</h2>
+    </div>
+    <div class="flex flex-col lg:flex-row gap-4">
+      <div class="row-span-3 w-[580px] ">
+      <div class="flex flex-col bg-gradient-to-b  from-[#53DB3A] to-[#ffffff]  ">
+        <div class="mt-10 p-2 lg:px-16">
+        <h4 class="flex-1 text-white text-2xl lg:text-4xl  font-semibold ">30% off</h4>
+        <p class="flex justify-center font-medium text-xl">Discover a world of treats, toys, and essentials handpicked for </p>
+        <div class="mt-4">
+          <button class="btn bg-white border-white text-black font-medium  text-xl">Buy Now</button>
+        
+        </div>
+        </div>
+        <div class="flex-1 flex justify-end">
+        <img src="./c2-assets/vegetable-offer.png" alt="Offer" class=" lg:w-1/2">
+      </div>
+    </div>
+    </div>
+    <!-- All items -->
+    <div class="grid grid-cols-2 lg:grid-cols-3 gap-6  ">
+      <!-- Items grid 1-->
+     <div class="flex flex-row  p-4 rounded-lg  items-center w-full bg-white  ">
+      <div class="bg-[#EFEBE3] p-5 rounded-r-sm ">
+        <img src="./c2-assets/onion.png" alt="Onion" class="w-16 h-16">
+      </div>
+      <div class="flex flex-col ">
+        <div class="rating rating-md">
+          <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-300" /> <span class="font-medium text-[16px]">4.5</span>
+        </div>
+        <h4 class="text-xl font-medium">Onion 1 KG </h4>
+        <p class="font-medium text-[16px] ">$39.99</p>
+  
+      </div>
+
+    </div>
+    
+     <!-- Items grid 2-->
+     <div class="flex flex-row gap-4 p-4 rounded-lg  items-center w-full bg-white max-w-sm">
+      <div class="bg-[#EFEBE3] p-5 rounded-r-sm ">
+        <img src="./c2-assets/onion.png" alt="Onion" class="w-16 h-16">
+      </div>
+      <div class="flex flex-col ">
+        <div class="rating rating-md">
+          <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-300" /> <span class="font-medium text-[16px]">4.5</span>
+        </div>
+        <h4 class="text-xl font-medium">Onion 1 KG </h4>
+        <p class="font-medium text-[16px] ">$39.99</p>
+  
+      </div>
+
+    </div>
+     <!-- Items grid 3-->
+     <div class="flex flex-row gap-4 p-4 rounded-lg  items-center w-full bg-white max-w-sm">
+      <div class="bg-[#EFEBE3] p-5 rounded-r-sm ">
+        <img src="./c2-assets/onion.png" alt="Onion" class="w-16 h-16">
+      </div>
+      <div class="flex flex-col ">
+        <div class="rating rating-md">
+          <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-300" /> <span class="font-medium text-[16px]">4.5</span>
+        </div>
+        <h4 class="text-xl font-medium">Onion 1 KG </h4>
+        <p class="font-medium text-[16px] ">$39.99</p>
+  
+      </div>
+
+    </div>
+     <!-- Items grid 4-->
+     <div class="flex flex-row gap-4 p-4 rounded-lg  items-center w-full bg-white max-w-sm">
+      <div class="bg-[#EFEBE3] p-5 rounded-r-sm ">
+        <img src="./c2-assets/onion.png" alt="Onion" class="w-16 h-16">
+      </div>
+      <div class="flex flex-col ">
+        <div class="rating rating-md">
+          <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-300" /> <span class="font-medium text-[16px]">4.5</span>
+        </div>
+        <h4 class="text-xl font-medium">Onion 1 KG </h4>
+        <p class="font-medium text-[16px] ">$39.99</p>
+  
+      </div>
+
+    </div>
+     <!-- Items grid 5-->
+     <div class="flex flex-row gap-4 p-4 rounded-lg  items-center w-full bg-white max-w-sm">
+      <div class="bg-[#EFEBE3] p-5 rounded-r-sm ">
+        <img src="./c2-assets/onion.png" alt="Onion" class="w-16 h-16">
+      </div>
+      <div class="flex flex-col ">
+        <div class="rating rating-md">
+          <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-300" /> <span class="font-medium text-[16px]">4.5</span>
+        </div>
+        <h4 class="text-xl font-medium">Onion 1 KG </h4>
+        <p class="font-medium text-[16px] ">$39.99</p>
+  
+      </div>
+
+    </div>
+     <!-- Items grid 6-->
+     <div class="flex flex-row gap-4 p-4 rounded-lg  items-center w-full bg-white max-w-sm">
+      <div class="bg-[#EFEBE3] p-5 rounded-r-sm ">
+        <img src="./c2-assets/onion.png" alt="Onion" class="w-16 h-16">
+      </div>
+      <div class="flex flex-col ">
+        <div class="rating rating-md">
+          <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-300" /> <span class="font-medium text-[16px]">4.5</span>
+        </div>
+        <h4 class="text-xl font-medium">Onion 1 KG </h4>
+        <p class="font-medium text-[16px] ">$39.99</p>
+  
+      </div>
+
+    </div>
+     <!-- Items grid 7-->
+     <div class="flex flex-row gap-4 p-4 rounded-lg  items-center w-full bg-white max-w-sm">
+      <div class="bg-[#EFEBE3] p-5 rounded-r-sm ">
+        <img src="./c2-assets/onion.png" alt="Onion" class="w-16 h-16">
+      </div>
+      <div class="flex flex-col ">
+        <div class="rating rating-md">
+          <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-300" /> <span class="font-medium text-[16px]">4.5</span>
+        </div>
+        <h4 class="text-xl font-medium">Onion 1 KG </h4>
+        <p class="font-medium text-[16px] ">$39.99</p>
+  
+      </div>
+
+    </div>
+     <!-- Items grid 8-->
+     <div class="flex flex-row gap-4 p-4 rounded-lg  items-center w-full bg-white max-w-sm">
+      <div class="bg-[#EFEBE3] p-5 rounded-r-sm ">
+        <img src="./c2-assets/onion.png" alt="Onion" class="w-16 h-16">
+      </div>
+      <div class="flex flex-col ">
+        <div class="rating rating-md">
+          <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-300" /> <span class="font-medium text-[16px]">4.5</span>
+        </div>
+        <h4 class="text-xl font-medium">Onion 1 KG </h4>
+        <p class="font-medium text-[16px] ">$39.99</p>
+  
+      </div>
+
+    </div>
+     <!-- Items grid 9-->
+     <div class="flex flex-row gap-4 p-4 rounded-lg  items-center w-full bg-white max-w-sm">
+      <div class="bg-[#EFEBE3] p-5 rounded-r-sm ">
+        <img src="./c2-assets/onion.png" alt="Onion" class="w-16 h-16">
+      </div>
+      <div class="flex flex-col ">
+        <div class="rating rating-md">
+          <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-300" /> <span class="font-medium text-[16px]">4.5</span>
+        </div>
+        <h4 class="text-xl font-medium">Onion 1 KG </h4>
+        <p class="font-medium text-[16px] ">$39.99</p>
+  
+      </div>
+
+    </div>
+       
+    </div>
+      
+     
+    
+     
+
+  </div>
+</section>
+
+
+
+
+
 
   </main>
     
