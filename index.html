@@ -36,11 +36,14 @@
 </head>
 <body class="font-sora bg-white">
   <!-- Header Section -->
-  <header class="container mx-auto px-4 py-3 bg-gradient-to-b from-white to-[#EFEBE3] ">
-    <!-- Navbar -->
-      <nav class="flex items-center justify-between">
+  <main class="overflow-hidden lg:mt-10  ">
+    <header class="  px-2 lg:px-20 bg-gradient-to-b from-white to-[#EFEBE3] ">
+      <!-- Navbar -->
+
+       <div class="lg:w-[1900px] mx-auto">
+        <nav class=" flex items-center  text-center justify-between lg:px-[200px]  ">
           <div>
-              <img src="./c2-assets/logo-header.png" alt="Logo" class="w-28">
+              <img src="./c2-assets/logo-header.png" alt="Logo" class="w-full">
               
           </div>
           <!-- Mobile Menu Button -->
@@ -50,58 +53,82 @@
                 </svg>
                 </button>
                 <!-- Desktop Icon -->
-                 <div class="hidden md:flex items-center space-x-6">
-                 <div class="ml">
-                  <ul class="flex  gap-5 font-normal text-xl">
+                 <div class="hidden md:flex items-center text-center space-x-6  ">
+                 <div class="">
+                  <ul class="flex gap-5 font-normal text-xl mr-32 ">
                     <li>Products</li>
                     <li>Services</li>
                     <li>Contact Us</li>
                 </ul>
                  </div>
-                  
-            
-             <!-- Icons -->
-              <section class="flex items-center gap-6">
-              <!-- Search Icon -->
+                 
+                  <div>
+                    <!-- Icons -->
+              <section class="flex items-center gap-6 ">
+             <!-- Search Icon -->
               <div >
                 <input type="text" placeholder="Search..." class="hidden px-3 py-1 rounded">
-                <button class="text-2xl"><i class="material-icons">search</i></button>
-                </div>
-                <!-- Cart Icon -->
-              <div class="block">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-gray-700 hover:text-gray-900 transition duration-300">
-                  <path d="M6 6h15l-1.5 9h-12L6 6z" />
-                  <circle cx="9" cy="20" r="1" />
-                  <circle cx="18" cy="20" r="1" />
-                  <path d="M6 6H3" />
-                </svg>
+              <button class="text-2xl"><i class="material-icons">search</i></button>
+            </div>
+          <!-- Cart Icon -->
+          <div class="block">
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-gray-700 hover:text-gray-900 transition duration-300">
+           <path d="M6 6h15l-1.5 9h-12L6 6z" />
+           <circle cx="9" cy="20" r="1" />
+          <circle cx="18" cy="20" r="1" />
+            <path d="M6 6H3" />
+           </svg>
+         </div>
+           <!-- Buttons -->
+         <div class=" hidden md:flex gap-4  ">
+         <button class="btn border-nature-primary px-8 ">Login</button>
+          <button class="btn  bg-nature-primary text-slate-50 font-medium !hover:bg-nature-primary">Register</button>
+           </div>
+            </section>
               </div>
-              <!-- Buttons -->
-              <div class=" hidden md:flex gap-4">
-                <button class="btn border-nature-primary ">Login </button>
-                <button class="btn bg-nature-primary text-slate-50 font-medium">Register</button>
+            
               </div>
-          </section>
-          </div>
         </nav>
-        <!-- Mobile Menu (Hidden by Default) -->
-  <div class="hidden md:hidden  flex-col items-center bg-white shadow-lg py-4 absolute top-16 left-0 w-full">
-    <ul class="space-y-4 text-lg">
-      <li class="hover:text-gray-700 cursor-pointer">Products</li>
-      <li class="hover:text-gray-700 cursor-pointer">Services</li>
-      <li class="hover:text-gray-700 cursor-pointer">Contact Us</li>
-    </ul>
-    <div class="flex flex-col gap-4 mt-4">
-      <button class="border border-nature-primary bg-base px-4 py-1 rounded">Login</button>
-      <button class="bg-nature-primary text-white px-4 py-1 rounded font-medium">Register</button>
-    </div>
-  </div>
+     
+       
    <!-- Banner Section -->
-    <section>
+    <section  class="mt-14 text-center flex flex-col items-center justify-center px-4">
+      <div class="">
+        <h1 class="text-center font-bold text-4xl  lg:text-6xl ">Freshness <span class="text-nature-primary">You Can </br> Count</span> On, Prices You’ll Love!</h1>
+         <p class="font-medium text-sm lg:text-xl  ">
+          Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br>staples, we’ve got you covered every day!
+        </p>
+      </div>
       
+        <img src="./c2-assets/hero-vegetables.png" alt="Banner-Image" class="w-[1040px] ">
     </section>
     </header>
 
+  <!-- Services Section -->
+   <section>
+    <div><h2 class="text-nature-primary">
+      Services
+    </h2>
+</div>
+<div class="card bg-base-100 w-96 shadow-xl">
+  <figure class="px-10 pt-10">
+    <img
+      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+      alt="Shoes"
+      class="rounded-xl" />
+  </figure>
+  <div class="card-body items-center text-center">
+    <h2 class="card-title">24/7 Services </h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div class="card-actions">
+      <button class="btn btn-primary">Buy Now</button>
+    </div>
+  </div>
+</div>
+   </section>
+</div>
+
+  </main>
     
 </body>
 </html>
